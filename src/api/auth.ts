@@ -7,6 +7,6 @@ export default async function authorization() {
         const response = await axios.get( 'https://test.gnzs.ru/')
       console.log(response);
     } catch (error) {
-      console.error(error);
+      console.log(error);
     }
   }
