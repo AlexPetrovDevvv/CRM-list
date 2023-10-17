@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const URL = 'https://test.gnzs.ru/oauth/get-token.php',
-ClientID = 31334466
+const URL = 'https://test.gnzs.ru/oauth/get-token.php'
 
 
 export default async function authorization() {
